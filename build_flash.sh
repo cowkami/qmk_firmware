@@ -1,1 +1,1 @@
-make helix:cowkami:flash
+make crkbd:cowkami:flash
