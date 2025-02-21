@@ -48,9 +48,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //,-----------------------------------------------------.                    ,-----------------------------------------------------.
        KC_GRV,    KC_1,    KC_2,    KC_3,    KC_4,    KC_5,                         KC_6,    KC_7,    KC_8,    KC_9,    KC_0, KC_PLUS,\
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-      KC_LCTL, RSFT(MS_LEFT), RSFT(MS_DOWN), RSFT(MS_UP), RSFT(MS_RGHT), _______,KC_LEFT, KC_DOWN,   KC_UP, KC_RGHT, KC_BSPC, KC_BSLS,\
+      KC_LCTL, _______, _______, MS_BTN2, MS_BTN1, _______,                      KC_LEFT, KC_DOWN,   KC_UP, KC_RGHT, KC_BSPC, KC_BSLS,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-      KC_LSFT, KC_BRID, KC_BRIU,KC_KB_VOLUME_DOWN,KC_KB_VOLUME_DOWN,KC_KB_MUTE,  _______, MS_BTN1, MS_BTN2, _______,  KC_DEL, KC_RSFT,\
+      KC_LSFT,KC_BRID,KC_BRIU,KC_KB_MUTE,KC_KB_VOLUME_DOWN,KC_KB_VOLUME_UP,LSFT(MS_LEFT),LSFT(MS_DOWN),LSFT(MS_UP),LSFT(MS_RGHT),KC_DEL,KC_RSFT,\
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
                                           KC_LALT,   KC_SPC,  MO(1),     KC_ENT,   MO(2),  KC_RGUI \
                                       //`--------------------------'  `--------------------------'
